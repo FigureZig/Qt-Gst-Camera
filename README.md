@@ -4,14 +4,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="qdarkstyle/icon.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Qt-Gst-Camera</h3>
+  <img src="qdarkstyle/icon.png" alt="Logo" width="80" height="80">
+   <h3 align="center">Qt-Gst-Camera</h3>
 
   <p align="center">
-    Simple pet-project
+    A simple pet-project
   </p>
 </div>
 
@@ -20,7 +17,7 @@
 
 ![example][product-example]
 
-This project is a Qt-based application for video processing that integrates with GStreamer for video capture and manipulation. Designed for [АО "НКБ ВС"](https://nkbvs.ru/)
+This project is a Qt-based application for video processing that integrates with GStreamer for video capture and manipulation. It is designed for [АО "НКБ ВС"](https://nkbvs.ru/)
 
 
 ### Built With
@@ -32,23 +29,23 @@ This project is a Qt-based application for video processing that integrates with
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To run program, follod these simple steps:
+To run the program, follow these simple steps:
 
 ### Prerequisites
 
-To build and run program, you'll need to install:
+To build and run the program, you'll need to install:
 * Qt 6.6.0
 * GStreamer
 
 ### Installation
 
-For install programm: 
+To install the program:
 
 1. Clone the repo
    ```sh
    git clone https://github.com/FigureZig/Qt-Gst-Camera.git
    ```
-2. In gstreamerhandler.cpp change device-index on desired one
+2. In 'gstreamerhandler.cpp', change 'device-index' to your desired one:
    ```c++
    const char* pipelineStr = "mfvideosrc device-index=YOUR_NUBMER ! videoconvert ! video/x-raw,format=RGB ! appsink name=sink";
    ```
@@ -56,14 +53,14 @@ For install programm:
 <!--BUILD-->
 ## Build
 
-To build the project you need:
+To build the project, you need to:
 
-1. Change Cache Variable in build.bat
+1. Change the Cache Variable in build.bat to your destination:
   ```sh
   cmake ../. -B .build_msvc -DQt6_DIR="YOUR_DESTANATION"
   ```
-2. Run configure.bat
-3. Run build.bat
+2. Run 'configure.bat'.
+3. Run 'build.bat'.
 
 <!--MARKDOWN-->
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
