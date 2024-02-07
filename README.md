@@ -79,4 +79,4 @@ To build the project you need:
 [gstreamer-url]: https://gstreamer.freedesktop.org/
 
 [product-logo]: qdarkstyle/icon.png
-[product-example]: example.png
+[product-example]: Example.png
