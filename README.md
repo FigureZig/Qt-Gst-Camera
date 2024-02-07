@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![example][product-example]]
+![example][product-example]
 
 This project is a Qt-based application for video processing that integrates with GStreamer for video capture and manipulation. Designed for [АО "НКБ ВС"](https://nkbvs.ru/)
 
