@@ -57,7 +57,7 @@ To build the project, you need to:
 
 1. Change the Cache Variable in build.bat to your destination:
   ```sh
-  cmake ../. -B .build_msvc -DQt6_DIR="YOUR_DESTANATION"
+  cmake ../. -B .build_msvc -DQt6_DIR="PATH"
   ```
 2. Run 'configure.bat'.
 3. Run 'build.bat'.
