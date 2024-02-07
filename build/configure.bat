@@ -1,0 +1,1 @@
+cmake ../. -B .build_msvc -DQt6_DIR="Z:\\dev\\Qt\\6.6.0\\lib\\cmake\\Qt6"
