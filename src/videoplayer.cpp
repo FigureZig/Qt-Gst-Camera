@@ -69,6 +69,7 @@ void VideoPlayer::setBrightness(int value) {
 // Enables or disables brightness adjustment and triggers a UI update.
 void VideoPlayer::setBrightnessEnabled(bool enabled) {
     brightnessEnabled = enabled;
+    brightnessValue = 0;
     update(); // Request a repaint to apply changes.
 }
 

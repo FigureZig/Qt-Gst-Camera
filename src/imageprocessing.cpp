@@ -28,7 +28,7 @@ QImage ImageProcessing::applyGrayscale(const QImage& original) {
 
 // Function to adjust the brightness of an image.
 QImage ImageProcessing::adjustBrightness(const QImage& original, int brightnessValue) {
-    if (brightnessValue < 1) {
+    if (brightnessValue == 0) {
         return original; // Return the original image if brightness adjustment is not needed.
     }
 

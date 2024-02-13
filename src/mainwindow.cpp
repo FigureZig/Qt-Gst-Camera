@@ -52,6 +52,9 @@ void MainWindow::setupControls(QVBoxLayout* mainLayout) {
 
     // Initially disable sliders until their corresponding checkboxes are checked.
     ui.brightnessSlider->setEnabled(false);
+    ui.brightnessSlider->setRange(-100,100);
+    ui.brightnessSlider->setValue(0);
+
     ui.blurSlider->setEnabled(false);
     // Add a spacer item for aesthetic spacing in the UI.
     controlsLayout->addSpacerItem(new QSpacerItem(20, 20, QSizePolicy::Minimum, QSizePolicy::Expanding));

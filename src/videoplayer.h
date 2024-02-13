@@ -31,6 +31,6 @@ private:
 	bool grayscaleEnabled = false;
 	int brightnessValue;
 	bool brightnessEnabled = false;
-	int blurValue;
+	int blurValue = 0;
 	bool blurEnabled = false;
 };
